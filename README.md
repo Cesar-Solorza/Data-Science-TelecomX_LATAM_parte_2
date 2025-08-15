@@ -25,31 +25,31 @@ SHAP — Interpretabilidad de modelos
 
 📊 Flujo de Trabajo
 
-1-Carga y exploración de datos
-  Análisis de valores nulos y tipos de datos
+1-Carga y exploración de datos  
+  Análisis de valores nulos y tipos de datos  
   Estadísticas descriptivas y visualizaciones iniciales
 
-2-Preprocesamiento
-  Codificación de variables categóricas
-  Eliminación de variables con alta multicolinealidad (VIF)
+2-Preprocesamiento  
+  Codificación de variables categóricas  
+  Eliminación de variables con alta multicolinealidad (VIF)  
   Balanceo de clases con SMOTE
 
-3-División de datos
-  Train (56%), Validación (14%), Test (30%)
+3-División de datos  
+  Train (56%), Validación (14%), Test (30%)  
   Normalización de variables numéricas
 
-4-Entrenamiento de Modelos
-  Regresión Logística
-  Árbol de Decisión
-  Random Forest
+4-Entrenamiento de Modelos  
+  Regresión Logística  
+  Árbol de Decisión  
+  Random Forest  
   XGBoost
 
-5-Evaluación de Modelos
-  Métricas: Accuracy, Precision, Recall, F1-Score, ROC-AUC, Average Precision
-  Matriz de confusión y curva ROC
+5-Evaluación de Modelos  
+  Métricas: Accuracy, Precision, Recall, F1-Score, ROC-AUC, Average Precision  
+  Matriz de confusión y curva ROC  
   Comparación gráfica de modelos
 
-6-Selección del Modelo Final
+6-Selección del Modelo Final  
 Regresión Logística seleccionada por su mejor balance entre recall y ROC-AUC, lo que la hace más efectiva para identificar clientes que probablemente cancelen.
 
 📈 Principales Factores de Cancelación
