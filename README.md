@@ -55,17 +55,25 @@ SHAP — Interpretabilidad de modelos
 📈 Principales Factores de Cancelación
 
 Basado en el análisis de importancia de variables, los factores más influyentes son:
+
 1-Cargos Mensuales altos.
+
 2-Meses de Contrato bajos (clientes nuevos tienden a cancelar más).
+
 3-Tipo de Contrato (mensual más propenso a cancelación).
+
 4-Uso de Servicios de Internet (fiber optic asociado a mayor cancelación).
+
 5-Ausencia de servicios complementarios como soporte técnico o seguridad online.
 
 💡 Estrategias de Retención Propuestas
 
 1-Ofertas personalizadas a clientes con contrato mensual para migrarlos a planes anuales.
+
 2-Descuentos escalonados en los primeros meses para nuevos clientes.
+
 3-Paquetes combinados de servicios complementarios para aumentar fidelización.
+
 4-Monitoreo proactivo de clientes con cargos mensuales altos para ofrecer alternativas.
 
 🚀 Ejecución del Proyecto
@@ -73,10 +81,13 @@ Basado en el análisis de importancia de variables, los factores más influyente
 1️⃣ Clonar el repositorio
   git clone https://github.com/Cesar-Solorza/Data-Science-TelecomX_LATAM_parte_2
   cd proyecto-churn
+
 2️⃣ Instalar dependencias
   pip install -r requirements.txt
+
 3️⃣ Entrenar el modelo
   python scripts/train_model.py
+
 4️⃣ Cargar y usar el modelo entrenado
   import joblib
   modelo = joblib.load("models/modelo_evasion_clientes.pkl")
