@@ -50,7 +50,7 @@ SHAP — Interpretabilidad de modelos
   Comparación gráfica de modelos
 
 6-Selección del Modelo Final
-  Regresión Logística seleccionada por su mejor balance entre recall y ROC-AUC, lo que la hace más efectiva para identificar clientes que probablemente cancelen.
+Regresión Logística seleccionada por su mejor balance entre recall y ROC-AUC, lo que la hace más efectiva para identificar clientes que probablemente cancelen.
 
 📈 Principales Factores de Cancelación
 
