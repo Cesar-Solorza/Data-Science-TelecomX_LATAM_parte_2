@@ -33,36 +33,40 @@ SHAP — Interpretabilidad de modelos
   Codificación de variables categóricas
   Eliminación de variables con alta multicolinealidad (VIF)
   Balanceo de clases con SMOTE
+
 3-División de datos
   Train (56%), Validación (14%), Test (30%)
   Normalización de variables numéricas
+
 4-Entrenamiento de Modelos
   Regresión Logística
   Árbol de Decisión
   Random Forest
   XGBoost
+
 5-Evaluación de Modelos
   Métricas: Accuracy, Precision, Recall, F1-Score, ROC-AUC, Average Precision
   Matriz de confusión y curva ROC
   Comparación gráfica de modelos
+
 6-Selección del Modelo Final
   Regresión Logística seleccionada por su mejor balance entre recall y ROC-AUC, lo que la hace más efectiva para identificar clientes que probablemente cancelen.
 
 📈 Principales Factores de Cancelación
 
 Basado en el análisis de importancia de variables, los factores más influyentes son:
-Cargos Mensuales altos.
-Meses de Contrato bajos (clientes nuevos tienden a cancelar más).
-Tipo de Contrato (mensual más propenso a cancelación).
-Uso de Servicios de Internet (fiber optic asociado a mayor cancelación).
-Ausencia de servicios complementarios como soporte técnico o seguridad online.
+1-Cargos Mensuales altos.
+2-Meses de Contrato bajos (clientes nuevos tienden a cancelar más).
+3-Tipo de Contrato (mensual más propenso a cancelación).
+4-Uso de Servicios de Internet (fiber optic asociado a mayor cancelación).
+5-Ausencia de servicios complementarios como soporte técnico o seguridad online.
 
 💡 Estrategias de Retención Propuestas
 
-Ofertas personalizadas a clientes con contrato mensual para migrarlos a planes anuales.
-Descuentos escalonados en los primeros meses para nuevos clientes.
-Paquetes combinados de servicios complementarios para aumentar fidelización.
-Monitoreo proactivo de clientes con cargos mensuales altos para ofrecer alternativas.
+1-Ofertas personalizadas a clientes con contrato mensual para migrarlos a planes anuales.
+2-Descuentos escalonados en los primeros meses para nuevos clientes.
+3-Paquetes combinados de servicios complementarios para aumentar fidelización.
+4-Monitoreo proactivo de clientes con cargos mensuales altos para ofrecer alternativas.
 
 🚀 Ejecución del Proyecto
 
